@@ -9,7 +9,7 @@ usage:
 
 unsplash.py [-h] [-s search] [-f file] [-t font] [-a]
 
-fetch images from unsplash
+fetch random images from unsplash and overlay text on images
 
 optional arguments:
 
