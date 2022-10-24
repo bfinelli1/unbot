@@ -1,4 +1,6 @@
 # unsplashbot
+fetch random images from unsplash and overlay text on those images
+
 setup:
 
 pip3 install -r requirements.txt
@@ -8,8 +10,6 @@ pip3 install -r requirements.txt
 usage: 
 
 ./unsplash.py [-h] [-s search] [-f file] [-t font] [-a]
-
-fetch random images from unsplash and overlay text on images
 
 optional arguments:
 
