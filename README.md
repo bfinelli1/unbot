@@ -5,7 +5,7 @@ setup:
 
 pip3 install -r requirements.txt
 
-
+have file called '.env' with line: Client-ID=\<your client id\>
 
 usage: 
 
