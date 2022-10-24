@@ -65,7 +65,7 @@ for entry in r.json():
 
     #download_location
     download_loc = entry['links']['download_location']
-    dreq = requests.get(download_loc, headers={'Authorization': 'Client-ID lCCrIlwquEm-TfmvK2rEd5F-Jfh_QvO_3aiuY3_lpiw'})
+    dreq = requests.get(download_loc, headers={'Authorization': f'Client-ID {os.getenv("Client-ID")}'})
     print(f"download status code: {dreq.status_code}")
 
     name = entry['user']['name']
